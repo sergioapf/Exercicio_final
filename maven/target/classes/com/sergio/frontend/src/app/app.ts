@@ -16,7 +16,7 @@ import { CommonModule } from '@angular/common';
       <p style="white-space: normal; word-wrap: break-word; overflow-wrap: break-word;">
       l({{ n }}) = {{ resultado }}</p>
     </div>
-    <p *ngIf="error" style="color:red">{{ erro }}</p>
+    <p *ngIf="erro" style="color:red">{{ erro }}</p>
 `
 })
 export class App {
